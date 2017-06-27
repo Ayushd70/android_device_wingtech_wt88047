@@ -27,6 +27,11 @@ PRODUCT_NAME := viper_wt88047
 BOARD_VENDOR := wingtech
 PRODUCT_DEVICE := wt88047
 
+
+PRODUCT_PROPERTY_OVERRIDES += /
+ro.aim.maintainer='Keertesh'
+
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Build fingerprint
